@@ -32,3 +32,14 @@ class MessageController {
     }
 
 }
+
+@RestController
+@RequestMapping("/roll")
+class RollController {
+
+    @GetMapping
+    public String message() {
+        return "We roll like this";
+    }
+
+}
